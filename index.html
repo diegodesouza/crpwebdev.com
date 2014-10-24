@@ -56,14 +56,15 @@
         <div class="col-xs-12">
           <section class="jumbotron">
             <h2 class="text-center">About</h2>
-            <article class="row">
+            <article class="row" itemscope itemtype="http://schema.org/Person">
               <div class="col-xs-9">
-                <p>Hi! My name is Caio Ribeiro Pereira and I am web developer from Brazil, my programming experience is based on understanding this alphabet soup: Node.js, Javascript, Meteor, Ruby, Rails, MongoDB, Redis, Riak, Linux, Lean Philosophy, Agile, XP and TDD.<br>
-                  I'm bachelor in Information Systems, blogger on my free times, admirer of programming, technology, movies and tv series. Actively engaged in the communities: NodeBr, DevInSantos and Meteor Brazil.<br>
-                  I started as lecturer in 2011 at DevInSantos and Exatec events, talking about Node.js and JavaScript which is my best! I created <a href="http://nodewebmodules.com" target="_blank">Node Web Modules</a>, <a href="http://devfreecasts.org" target="_blank">DevFreeCasts</a> and I am moderator of <a href="https://groups.google.com/forum/#!forum/meteor-brasil" target="_blank">Meteor Brazil Google groups</a> community.</p>
+                <p itemprop="description">Hi! My name is <span itemprop="name">Caio Ribeiro Pereira</span> and I am web developer from Brazil, my programming experience is based on understanding this alphabet soup: Node.js, Javascript, Meteor, Ruby, Rails, MongoDB, Redis, Riak, Linux, Lean Philosophy, Agile, XP and TDD.<br>
+                  I'm bachelor in Information Systems, blogger on my free times, admirer of programming, technology, movies and tv series. Actively engaged in the communities: <a href="https://groups.google.com/forum/#!forum/nodebr" target="_blank" rel="co-worker">NodeBr</a>, <a href="https://groups.google.com/forum/#!forum/devinsantos" target="_blank" rel="co-worker">DevInSantos</a> and <a href="https://groups.google.com/forum/#!forum/meteor-brasil" target="_blank" rel="me">Meteor Brazil</a>.<br>
+                  I started as lecturer in 2011 at DevInSantos and Exatec events, talking about Node.js and JavaScript which is my best!<br>
+                  I created <a href="http://nodewebmodules.com" target="_blank" rel="me">NodeWebModules</a>, <a href="http://devfreecasts.org" target="_blank" rel="me">DevFreeCasts</a> and I am moderator of <a href="https://groups.google.com/forum/#!forum/meteor-brasil" target="_blank" rel="me">Meteor Brazil Google groups</a> community.</p>
               </div>
               <div class="col-xs-3">
-                <img src="images/caio-ribeiro-pereira.jpg" alt="Caio Ribeiro Pereira" class="img-responsive img-circle">
+                <img src="images/caio-ribeiro-pereira.jpg" alt="Caio Ribeiro Pereira" class="img-responsive img-circle" itemprop="image">
               </div>
             </article>
           </section>
@@ -73,31 +74,33 @@
         <div class="col-xs-12">
           <section class="jumbotron" id="books">
             <h2 class="text-center">Books</h2>
-            <article class="row">
+            <article class="row" itemscope itemtype="http://schema.org/Book">
               <div class="col-xs-3">
                 <a href="http://www.codecrushing.com/products/book-nodejs" title="Real-time web applications with Node.js" target="_blank">
-                  <img src="images/real-time-web-applications-with-nodejs.jpg" alt="Real-time web applications with Node.js" class="img-responsive">
+                  <img src="images/real-time-web-applications-with-nodejs.jpg" alt="Real-time web applications with Node.js" class="img-responsive" itemprop="image">
                 </a>
               </div>
               <div class="col-xs-9">
-                <p>Node.js is a powerful platform. It allows to write serve-side Javascript applications, making use of the language's syntax familiarity to write scalable applications.<br>
+                <h2 itemprop="name">Real-time web applications with Node.js</h2>
+                <p itemprop="description">Node.js is a powerful platform. It allows to write serve-side Javascript applications, making use of the language's syntax familiarity to write scalable applications.<br>
                    As Node.js makes use of an object-oriented model and events, focussed in non-blocking I/O, developing on it may be different to whom is used to traditional web applications. In this book, Caio Ribeiro Pereira breaks this wall, clearly showing this paradigm change, besides focusing in importante topics, the main API's and frameworks as Express and Socket.IO</p>
-                <p>Pages: 143 | ISBN: 978-85-66250-14-5<br>
+                <p>Pages: <span itemprop="numberOfPages">143</span> | ISBN: <span itemprop="isbn">978-85-66250-14-5</span><br>
                    Buy ebook: <a href="http://www.codecrushing.com/products/book-nodejs" title="Real-time web applications with Node.js" target="_blank">English version</a> | <a href="http://www.casadocodigo.com.br/products/livro-nodejs" title="Web real-time com Node.js" target="_blank">Portuguese version</a></p>
               </div>
             </article>
             <hr>
-            <article class="row">
+            <article class="row" itemscope itemtype='http://schema.org/Book'>
               <div class="col-xs-3">
-                <a href="http://www.casadocodigo.com.br/products/livro-meteor" title="Meteor - Building real-time web applications using JavaScript" target="_blank">
-                  <img src="images/meteor-criando-aplicacoes-web-real-time-com-javascript.jpg" alt="Meteor - Building real-time web applications using JavaScript" class="img-responsive">
+                <a href="http://www.casadocodigo.com.br/products/livro-meteor" title="Meteor - Criando aplicações web real-time com JavaScript" target="_blank">
+                  <img src="images/meteor-criando-aplicacoes-web-real-time-com-javascript.jpg" alt="Meteor - Criando aplicações web real-time com JavaScript" class="img-responsive" itemprop="image">
                 </a>
               </div>
               <div class="col-xs-9">
-                <p>JavaScript is nowadays a real choice for building server-side applications. Work with the same front-end language is a great advantage too. There are a lot of full-stack web frameworks, but Meteor is one that stand out.<br>
+                <h2 itemprop="name">Meteor - Criando aplicações web real-time com JavaScript</h2>
+                <p itemprop="description">JavaScript is nowadays a real choice for building server-side applications. Work with the same front-end language is a great advantage too. There are a lot of full-stack web frameworks, but Meteor is one that stand out.<br>
                    In this book, you will learn how to create a real-time social network, exploring the main native components of Meteor.<br>
                    Technically, you will learn how to build amazing templates using Handlebars, how to use Facebook API for sign-in and sign-up users, how to persist data into NoSQL MongoDB and how to develop an application using advanced concepts of reactive programming and Meteor PubSub.</p>
-                <p>Pages: 157 | ISBN: 978-85-66250-45-9<br>
+                <p>Pages: <span itemprop="numberOfPages">157</span> | ISBN: <span itemprop="isbn">978-85-66250-45-9</span><br>
                    Buy ebook: <a href="http://www.casadocodigo.com.br/products/livro-meteor" title="Meteor - Building real-time web applications using JavaScript" target="_blank">Portuguese version</a></p>
               </div>
             </article>
