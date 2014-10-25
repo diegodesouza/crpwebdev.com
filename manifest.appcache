@@ -1,9 +1,13 @@
 CACHE MANIFEST
-# Rev.: 2014-10-25
+# Rev.: 2014-10-25 14:00
 
 CACHE:
 http://crpwebdev.com/favicon.ico
+http://crpwebdev.com/index.html
+http://crpwebdev.com/css/*
+http://crpwebdev.com/js/*
 http://crpwebdev.com/images/*
+http://crpwebdev.com/font/*
 
 NETWORK:
 *
