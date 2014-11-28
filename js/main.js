@@ -10,5 +10,7 @@
       collapse.classList.add("hidden-xs");
     }
   });
+
+  smoothScroll.init();
   
 })();
